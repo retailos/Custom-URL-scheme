@@ -43,6 +43,13 @@
         </dict>
       </array>
     </config-file>
+    <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+      <array>
+          <string>$URL_WHITELIST_1</string>
+          <string>$URL_WHITELIST_2</string>
+          <string>$URL_WHITELIST_3</string>
+        </array>
+      </config-file>
   </platform>
 
   <!-- android -->
